@@ -14,5 +14,3 @@ def system_info():
     print(f"Available RAM  : {round(psutil.virtual_memory().available / (1024**3), 2)} GB")
     print(f"Python path    : {sys.executable}")
     print("Current working directory:", os.getcwd())
-
-system_info()
